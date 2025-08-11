@@ -1,4 +1,4 @@
-# Assignment 3, Part 1: Variational Autoencoders
+# Variational Autoencoders
 
 This folder contains the code for implementing your own VAE model.
 We will train the model on generating 4-bit MNIST images. The original MNIST dataset contains images with pixel values between 0 and 1. To discretize those, we multiply pixel values with 16 and map the result to the closest integer value (rounding down 16 to 15). This is a 4-bit representation of the original image. Standard RGB images are usually using 8-bit encodings (i.e. values between 0 and 255), but to simplify the task, we only use 4 bits here.
